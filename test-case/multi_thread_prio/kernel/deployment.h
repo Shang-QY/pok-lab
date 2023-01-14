@@ -15,7 +15,7 @@
 #define POK_CONFIG_NB_LOCKOBJECTS 0
 #define POK_CONFIG_NB_PARTITIONS 1
 
-#define POK_CONFIG_PROCESSOR_AFFINITY                                          \
+#define POK_CONFIG_PROCESSOR_AFFINITY          \
     { 1, 1 }
 
 #define POK_CONFIG_PARTITIONS_SIZE \
@@ -38,4 +38,4 @@
 
 #include <core/schedvalues.h>
 #define POK_CONFIG_PARTITIONS_SCHEDULER \
-    { POK_SCHED_WRR }
+    { POK_SCHED_PRIO }
